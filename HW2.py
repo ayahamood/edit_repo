@@ -7,7 +7,7 @@ print(data)
 
 #drawing
 plt.scatter(data['Year'], data['GDP'])
-
+####################################################
 #defining y=mx+b (x,y)
 x=data.iloc[:,:1]
 y=data.iloc[:,1]
